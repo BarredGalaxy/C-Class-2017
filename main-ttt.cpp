@@ -116,7 +116,7 @@ int checkwin()
 void board()
 {
 	system("CLS");
-	cout << "\n\n\tTac Toe Tic\n(c) Christian, Jack 2017\n\n";
+	cout << "\n\n\tTac Toe Tic\n(c) Christian, Jack 2017\nBuild Log: DO NOT USE LETTERS!\n (it will crash your game and \nleave it in a endless loop.)\n\n";
 
 	cout << "Player 1 (X)  -  Player 2 (O)" << endl << endl;
 	cout << endl;
