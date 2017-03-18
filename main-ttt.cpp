@@ -1,4 +1,5 @@
 #include <iostream>
+#include <cstdlib>
 using namespace std;
 
 char square[10] = {'o','1','2','3','4','5','6','7','8','9'};
@@ -114,7 +115,7 @@ int checkwin()
 
 void board()
 {
-
+	system("CLS");
 	cout << "\n\n\tTac Toe Tic\n(c) Christian, Jack 2017\n\n";
 
 	cout << "Player 1 (X)  -  Player 2 (O)" << endl << endl;
